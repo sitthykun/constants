@@ -1,0 +1,6 @@
+# Regular Expression
+# email = ^([a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})$
+# website = ^((http|https)://)[-a-zA-Z0-9@:%._\\+~#?&//=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%._\\+~#?&//=]*)$
+# integer = ^\d+$
+# integer range = ^[0-9]$
+# integer with minus = ^-?(0|[1-9]\d*)$
