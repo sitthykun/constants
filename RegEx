@@ -3,5 +3,8 @@
 # website = ^((http|https)://)[-a-zA-Z0-9@:%._\\+~#?&//=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%._\\+~#?&//=]*)$
 # integer = ^\d+$
 # integer range = ^[0-9]$
+## https://stackoverflow.com/questions/2811031/decimal-or-numeric-values-in-regular-expression-validation
 # integer with minus = ^-?(0|[1-9]\d*)$
 # integer with minus and not include -0 = ^-?(0|[1-9]\d*)(?<!-0)$
+# float = ^(0|[1-9]\d*)(\.\d+)?$
+# float advanced = ^(?!-0?(\.0+)?$)-?(0|[1-9]\d*)?(\.\d+)?(?<=\d)$
