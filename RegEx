@@ -4,3 +4,4 @@
 # integer = ^\d+$
 # integer range = ^[0-9]$
 # integer with minus = ^-?(0|[1-9]\d*)$
+# integer with minus and not include -0 = ^-?(0|[1-9]\d*)(?<!-0)$
